@@ -21,3 +21,6 @@
 - Time to write the logger. I'll copy over my code from the encryption algorithm as a starter.
 - Oops, accidentally deleted the project instructions.
 - I kinda want to experiment with using a terminal menu libary. I haven't used one of those before. Found one online called "simple-term-menu".
+- It feels so weird switching from writing Typescript for so long to Python.
+- Writing this program makes me feel grateful for developer tooling. I'm glad I don't need to fiddle around with stdin and parsing commands, and I get intellisense and type checking, when I write most of my projects.
+- I find it strange that I'm supposed to add the encrypted string to my history as well as the strings that the user inputs. Maybe I misunderstand something.
