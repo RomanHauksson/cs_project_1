@@ -56,14 +56,34 @@ def main():
                         print("Enter a string: ")
                         string = sys.stdin.readline().rstrip()
                         string_history.append(string)
-                encryption.stdin.write(f"ENCRYPT {password}")
+                encryption.stdin.write(f"ENCRYPT {string}")
                 encrypted_string = encryption.stdout.read()
                 string_history.append(encrypted_string)
                 print(encrypted_string)
             case "decrypt":
-              
-
-    logger.stdin.write("EXIT")
+                options_decrypt = [
+                    "Decrypt a string from your history",
+                    "Decrypt a new string",
+                ]
+                option_decrypt = TerminalMenu(options_decrypt).show()
+                match options_decrypt[option_decrypt]:
+                    case "Decrypt a string from your history":
+                        option_decrypt_history = TerminalMenu(string_history).show()
+                        string = string_history[option_decrypt_history]
+                    case "Decrypt a new string":
+                        print("Enter a string: ")
+                        string = sys.stdin.readline().rstrip()
+                        string_history.append(string)
+                encryption.stdin.write(f"DECRYPT {string}")
+                decrypted_string = encryption.stdout.read()
+                string_history.append(decrypted_string)
+                print(decrypted_string)
+            case "history":
+                print(string_history)
+            case "quit":
+                encryption.stdin.write("QUIT")
+                logger.stdin.write("QUIT")
+                break
 
 
 if __name__ == "__main__":
