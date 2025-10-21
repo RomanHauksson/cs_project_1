@@ -19,3 +19,5 @@
 - I decided to use a match statement, which they added in Python 3.10.
 - I learned online that I don't need to flush stdout after I print, which makes sense.
 - Time to write the logger. I'll copy over my code from the encryption algorithm as a starter.
+- Oops, accidentally deleted the project instructions.
+- I kinda want to experiment with using a terminal menu libary. I haven't used one of those before. Found one online called "simple-term-menu".
