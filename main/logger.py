@@ -11,9 +11,10 @@ while True:
     line = sys.stdin.readline().rstrip().split(" ", 1)
 
     action = line[0]
-    message = line[1]
     if action == "QUIT":
         break
+
+    message = "" if len(line) == 1 else line[1]
 
     with open(filename, "a") as f:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
