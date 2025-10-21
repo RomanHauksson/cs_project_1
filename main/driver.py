@@ -42,6 +42,7 @@ def main():
                         print("Enter a string: ")
                         password = sys.stdin.readline().rstrip()
                 encryption.stdin.write(f"PASS {password}")
+                logger.stdin.write(f"PASS Password has been set to {password}")
             case "encrypt":
                 options_encrypt = [
                     "Encrypt a string from your history",
@@ -57,7 +58,11 @@ def main():
                         string = sys.stdin.readline().rstrip()
                         string_history.append(string)
                 encryption.stdin.write(f"ENCRYPT {string}")
+                logger.stdin.write(f'ENCRYPT The string "{string}" has been encrypted')
                 encrypted_string = encryption.stdout.read()
+                logger.stdin.write(
+                    f'ENCRYPT "{string}" encrypted is "{encrypted_string}"'
+                )
                 string_history.append(encrypted_string)
                 print(encrypted_string)
             case "decrypt":
@@ -75,14 +80,22 @@ def main():
                         string = sys.stdin.readline().rstrip()
                         string_history.append(string)
                 encryption.stdin.write(f"DECRYPT {string}")
+                logger.stdin.write(f'DECRYPT The string "{string}" has been dycrypted')
                 decrypted_string = encryption.stdout.read()
+                logger.stdin.write(
+                    f'DECRYPT "{string}" decrypted is "{decrypted_string}"'
+                )
                 string_history.append(decrypted_string)
                 print(decrypted_string)
             case "history":
+                logger.stdin.write("HISTORY The user requested to see the history")
                 print(string_history)
+                logger.stdin.write(
+                    f"HISTORY The current history is {', '.join(string_history)}"
+                )
             case "quit":
                 encryption.stdin.write("QUIT")
-                logger.stdin.write("QUIT")
+                logger.stdin.write("QUIT The user quit the program")
                 break
 
 
