@@ -24,3 +24,5 @@
 - It feels so weird switching from writing Typescript for so long to Python.
 - Writing this program makes me feel grateful for developer tooling. I'm glad I don't need to fiddle around with stdin and parsing commands, and I get intellisense and type checking, when I write most of my projects.
 - I find it strange that I'm supposed to add the encrypted string to my history as well as the strings that the user inputs. Maybe I misunderstand something.
+- Finished adding logging. The program does not work after I tried adding a password then encrypting a new string.
+- Even after adding flushing and waiting for the subprocesses, I'm still running into an error where the driver doesn't do anything after I try to encrypt my first string.
