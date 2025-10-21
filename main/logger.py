@@ -7,6 +7,15 @@ if len(sys.argv) != 2:
 
 filename = sys.argv[1]
 
+
+def log(action: str, message: str):
+    with open(filename, "a") as f:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        f.write(f"{timestamp} [{action}] {message}\n")
+
+
+log("START", "Logging started")
+
 while True:
     line = sys.stdin.readline().rstrip().split(" ", 1)
 
@@ -15,7 +24,6 @@ while True:
         break
 
     message = "" if len(line) == 1 else line[1]
+    log(action, message)
 
-    with open(filename, "a") as f:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-        f.write(f"{timestamp} [{action}] {message}\n")
+log("STOP", "Logging stopped")
