@@ -1,0 +1,125 @@
+2025-10-21 19:44 [START] Logging started
+2025-10-21 19:44 [START] 
+2025-10-21 19:44 [PASS] Password has been set to bruh
+2025-10-21 19:45 [ENCRYPT] The string "test" has been encrypted
+2025-10-21 19:45 [ENCRYPT] "test" encrypted is "uvma"
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [HISTORY] The user requested to see the history
+2025-10-21 19:45 [HISTORY] The current history is test, uvma
+2025-10-21 19:45 [STOP] Logging stopped
+2025-10-21 19:51 [START] Logging started
+2025-10-21 19:51 [START] 
+2025-10-21 19:51 [STOP] Logging stopped
+2025-10-21 19:53 [START] Logging started
+2025-10-21 19:53 [START] 
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:53 [HISTORY] The user requested to see the history
+2025-10-21 19:53 [HISTORY] The current history is
+2025-10-21 19:54 [STOP] Logging stopped
+2025-10-21 19:54 [START] Logging started
+2025-10-21 19:54 [START] 
+2025-10-21 19:54 [HISTORY] The user requested to see the history
+2025-10-21 19:54 [HISTORY] The current history is
+2025-10-21 19:54 [STOP] Logging stopped
+2025-10-21 19:54 [START] Logging started
+2025-10-21 19:54 [START] 
+2025-10-21 19:54 [HISTORY] The user requested to see the history
+2025-10-21 19:54 [HISTORY] The current history is
+2025-10-21 19:56 [START] Logging started
+2025-10-21 19:56 [START] 
+2025-10-21 19:57 [START] Logging started
+2025-10-21 19:57 [START] 
+2025-10-21 19:57 [PASS] Password has been set to test
+2025-10-21 19:58 [HISTORY] The user requested to see the history
+2025-10-21 19:58 [HISTORY] The current history is
+2025-10-21 19:58 [HISTORY] The user requested to see the history
+2025-10-21 19:58 [HISTORY] The current history is
+2025-10-21 19:58 [HISTORY] The user requested to see the history
+2025-10-21 19:58 [HISTORY] The current history is
+2025-10-21 19:58 [HISTORY] The user requested to see the history
+2025-10-21 19:58 [HISTORY] The current history is
+2025-10-21 19:58 [HISTORY] The user requested to see the history
+2025-10-21 19:58 [HISTORY] The current history is
+2025-10-21 19:58 [PASS] Password has been set to test
+2025-10-21 19:58 [STOP] Logging stopped
+2025-10-21 19:59 [START] Logging started
+2025-10-21 19:59 [START] 
+2025-10-21 20:01 [STOP] Logging stopped
+2025-10-21 20:01 [START] Logging started
+2025-10-21 20:01 [START] 
+2025-10-21 20:01 [PASS] Password has been set to tnst
+2025-10-21 20:01 [ENCRYPT] The string "test" has been encrypted
+2025-10-21 20:01 [ENCRYPT] "test" encrypted is "mrkm"
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [HISTORY] The user requested to see the history
+2025-10-21 20:01 [HISTORY] The current history is test, mrkm
+2025-10-21 20:01 [ENCRYPT] The string "mrkm" has been encrypted
+2025-10-21 20:01 [ENCRYPT] "mrkm" encrypted is "fecf"
+2025-10-21 20:01 [DECRYPT] The string "fecf" has been decrypted
+2025-10-21 20:01 [DECRYPT] "fecf" decrypted is "mrkm"
+2025-10-21 20:01 [STOP] Logging stopped
+2025-10-21 20:10 [START] Logging started
+2025-10-21 20:10 [START] 
+2025-10-21 20:10 [PASS] Password has been set to test
+2025-10-21 20:11 [DECRYPT] The string "bruh" is being decrypted
+2025-10-21 20:11 [DECRYPT] "bruh" decrypted is "inco"
+2025-10-21 20:11 [ENCRYPT] The string "bruh" is being encrypted
+2025-10-21 20:11 [ENCRYPT] "bruh" encrypted is "uvma"
+2025-10-21 20:11 [DECRYPT] The string "uvma" is being decrypted
+2025-10-21 20:11 [DECRYPT] "uvma" decrypted is "bruh"
+2025-10-21 20:11 [HISTORY] The user requested to see the history
+2025-10-21 20:11 [HISTORY] The current history is bruh, inco, uvma, bruh
+2025-10-21 20:11 [STOP] Logging stopped
+2025-10-21 20:11 [START] Logging started
+2025-10-21 20:11 [START] 
+2025-10-21 20:12 [ENCRYPT] The string "thi" is being encrypted
+2025-10-21 20:12 [ENCRYPT] "thi" encrypted is "ERROR The passkey is not set."
+2025-10-21 20:12 [STOP] Logging stopped
+2025-10-21 20:35 [START] Logging started
+2025-10-21 20:35 [START] 
+2025-10-21 20:35 [PASS] Password has been set to thisisatest
+2025-10-21 20:35 [ENCRYPT] The string "thisisatest" is being encrypted
+2025-10-21 20:35 [ENCRYPT] "thisisatest" encrypted is "moqkqkamikm"
+2025-10-21 20:35 [STOP] Logging stopped
+2025-10-21 20:35 [START] Logging started
+2025-10-21 20:35 [START] 
+2025-10-21 20:36 [PASS] Password has been set to thisisatest
+2025-10-21 20:36 [ENCRYPT] The string "thisisatest" is being encrypted
+2025-10-21 20:36 [ENCRYPT] "thisisatest" encrypted is "moqkqkamikm"
+2025-10-21 20:36 [STOP] Logging stopped
+2025-10-21 20:37 [START] Logging started
+2025-10-21 20:37 [START] 
+2025-10-21 20:37 [PASS] Password has been set to test
+2025-10-21 20:37 [HISTORY] The user requested to see the history
+2025-10-21 20:37 [HISTORY] The current history is test
+2025-10-21 20:37 [STOP] Logging stopped
+2025-10-21 20:41 [START] Logging started
+2025-10-21 20:41 [START] 
+2025-10-21 20:41 [ENCRYPT] The string "test" is being encrypted
