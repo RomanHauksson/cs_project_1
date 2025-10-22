@@ -27,3 +27,11 @@
 ## 2025-10-21, 00:00
 
 - I finished writing the bulk of the program, I now just need to finish debugging it, check it against the guidelines, and package it for submission. I think I'll just go to bed so I can look at this with fresh eyes tomorrow morning. I'm sad I'll have to take the penalty, but I accept the consequence of my foolish procrastination.
+
+## 2025-10-21, 17:57
+
+- Gonna get some quick things done before I go to a group run.
+- I want to see if I can debug this error with fresh eyes.
+- Looks like the encryption / decryption works. But quitting doesn't work.
+- Fixed the error! Was pretty straightforward actually. Sending a QUIT command to the encryption process wasn't being handled correctly because it ignored commands without any arguments. And since the driver program waits until the encryption program is done quitting, it wasn't being stopped either.
+- Cleaned up some things with the driver. Now I'll take another look at the project instructions and wrap this up for submission.
