@@ -33,8 +33,10 @@ while True:
     if len(line) == 0:
         break
     if len(line) == 1:
-        print("ERROR Must specify an argument.")
-        continue
+        if line[0] == "QUIT":
+            break
+        else:
+            raise ValueError(f"Invalid command: {line[0]}")
     if len(line) > 2:
         print("ERROR Cannot supply more than one argument.")
         continue
@@ -47,12 +49,12 @@ while True:
                 print("ERROR The passkey is not set.")
             else:
                 print("RESULT " + encrypt(argument))
+            sys.stdout.flush()
         case "DECRYPT":
             if passkey is None:
                 print("ERROR The passkey is not set.")
             else:
                 print("RESULT " + decrypt(argument))
-        case "QUIT":
-            break
+            sys.stdout.flush()
         case _:
             print(f'ERROR Invalid command "{command}".')
