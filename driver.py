@@ -10,14 +10,14 @@ def main():
     log_filename = sys.argv[1]
 
     logger = Popen(
-        ["python3.13", "logger.py", log_filename],
+        ["uv", "run", "logger.py", log_filename],
         stdout=PIPE,
         stdin=PIPE,
         encoding="utf8",
     )
 
     encryption = Popen(
-        ["python3.13", "encryption.py"], stdout=PIPE, stdin=PIPE, encoding="utf8"
+        ["uv", "run", "encryption.py"], stdout=PIPE, stdin=PIPE, encoding="utf8"
     )
 
     logger.stdin.write("START\n")

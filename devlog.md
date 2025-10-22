@@ -42,3 +42,4 @@
 - Just refactored out a couple functions (one for logging and one for getting a string from the user). Happy that the code is cleaner. And it made it easier to check whether the input only has letters. However, I just discovered that this will add someone's password to the history, so I need to fix that real quick.
 - Fixed it. Now I think it would be better UX if I didn't show the options that aren't valid - e.g. before a password is set, I don't even show the option to encrypt or decrypt, or if the history is empty, I don't show the option to use a string from the history. But I'm happy with the program as it stands right now.
 - Now I just need to submit. I'll test it on UTD's servers. I hope they support Python 3.13.
+- Actually I think it should be fine if we use 3.11.
