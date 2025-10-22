@@ -45,7 +45,7 @@ while True:
     [command, argument] = line
     match command:
         case "PASS":
-            passkey = argument
+            passkey = argument.lower()
         case "ENCRYPT":
             if passkey is None:
                 print("ERROR The passkey is not set.")
