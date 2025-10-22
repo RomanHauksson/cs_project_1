@@ -9,6 +9,7 @@ alphabet: Final[str] = "abcdefghijklmnopqrstuvwxyz"
 
 
 def encrypt(input: str):
+    input = input.lower()
     output = ""
     for i, letter in enumerate(input):
         index = alphabet.find(letter)
@@ -18,6 +19,7 @@ def encrypt(input: str):
 
 
 def decrypt(input: str):
+    input = input.lower()
     output = ""
     for i, letter in enumerate(input):
         index = alphabet.find(letter)
