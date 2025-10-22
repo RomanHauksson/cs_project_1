@@ -35,3 +35,10 @@
 - Looks like the encryption / decryption works. But quitting doesn't work.
 - Fixed the error! Was pretty straightforward actually. Sending a QUIT command to the encryption process wasn't being handled correctly because it ignored commands without any arguments. And since the driver program waits until the encryption program is done quitting, it wasn't being stopped either.
 - Cleaned up some things with the driver. Now I'll take another look at the project instructions and wrap this up for submission.
+- Realized I need to fix a few things:
+  - The driver shouldn't let the user encrypt or decrypt a string if a password hasn't been set
+  - I need to reject inputs with non-letters
+  - I need to double check that it's case-insensitive
+- Just refactored out a couple functions (one for logging and one for getting a string from the user). Happy that the code is cleaner. And it made it easier to check whether the input only has letters. However, I just discovered that this will add someone's password to the history, so I need to fix that real quick.
+- Fixed it. Now I think it would be better UX if I didn't show the options that aren't valid - e.g. before a password is set, I don't even show the option to encrypt or decrypt, or if the history is empty, I don't show the option to use a string from the history. But I'm happy with the program as it stands right now.
+- Now I just need to submit. I'll test it on UTD's servers. I hope they support Python 3.13.
