@@ -1,11 +1,7 @@
 import sys
 from typing import Final
 
-# maybe use do while loop for this?
-
 alphabet: Final[str] = "abcdefghijklmnopqrstuvwxyz"
-
-# TODO: handle lowercase testing
 
 
 def encrypt(input: str):
